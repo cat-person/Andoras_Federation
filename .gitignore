@@ -1,6 +1,6 @@
 /jars*
 /out*
 /.github*
-/**.png~
-/**.kra
+*.png~
+*.kra
 /.DS_Store
