@@ -1,0 +1,78 @@
+{
+  "hullName": "Archelon",
+  "hullId": "sr_archelon",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sr_archelon.png",
+  "style": "HOUSE_BELLONA",
+  "height": 35,
+  "width": 40,
+  "center": [20, 18],
+  "collisionRadius": 21,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedshieldemitter",
+    "autorepair",
+    "insulatedengine",
+    "solar_shielding",
+    "sr_belladonagunners"
+  ],
+  "builtInWeapons": {
+    "WS0001": "sr_thirtyfour",
+    "WS0002": "sr_fightereater"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-11.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 8],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-15, -8],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HOUSE_BELLONA"
+    }
+  ],
+  "bounds": [
+    4.5, -16.5,
+    -13.5, -9.5,
+    -13.5, 9.5,
+    4.5, 16.5
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "hullName": "Lycaenops",
+  "hullId": "sr_lycaenops",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/sr_lycaenops.png",
+  "style": "HOUSE_BELLONA",
+  "height": 36,
+  "width": 37,
+  "center": [18.5, 11],
+  "collisionRadius": 18,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 18,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [2.5, 8]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 3,
+      "angle": -0,
+      "locations": [8.5, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6.5, -0],
+      "length": 10,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-4.5, -10],
+      "length": 10,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-4.5, 10],
+      "length": 10,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HOUSE_BELLONA"
+    }
+  ],
+  "bounds": [
+    -3, 14.5,
+    -3, -14.5,
+    11, -0
+  ]
+}

@@ -1,0 +1,35 @@
+{
+	"solarrepublic":{
+		"%":"%",
+		"su":"su",
+		"op":"OP",
+		"/":"/",
+		"-":"-",
+		"+":"+",
+		
+		"ready":"READY",
+		"range":"OUT OF RANGE",
+		"target":"NO TARGET",
+				
+		"noDeck":"Can not be installed on a ship without flight deck.",
+		"charge":"CHRG",
+		"reload":"RELOAD",
+		"translation":"translation in progress",
+		"repulsion":"repulsion field active",
+		"engine":"increased engine power",
+		"unfolding":"shield fast unfolding",
+		"missile":"missiles in production",
+		"time":"time flow altered",
+		"timeStop":"time flow halted",
+		"damage":"% shield damage reduction",
+		"arc":"% shield arc",
+		"maneuverability":"improved maneuverability",
+		"speed":"top speed increased by ",
+		"PlasmaDump_1":"maneuverability increased by ",
+		"PlasmaDump_2":"ballistic weapons ROF increased by ",
+                "PlasmaDump_3":"range increased by ",
+                "PlasmaDump_4":"timeflow being altered!",
+                "PlasmaDump_5":"flux efficiency increased!",
+		"emp":"EMP emitter active!",
+    }
+}

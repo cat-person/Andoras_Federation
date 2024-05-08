@@ -1,0 +1,43 @@
+{
+  "id": "sr_solandri",
+  "specClass": "projectile",
+  "projectileSpecId": "sr_solandri_mrm",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "cloudParticleCount": 15,
+    "cloudDuration": 1.45,
+    "cloudRadius": 20,
+    "blowbackParticleCount": 15,
+    "blowbackDuration": 1.45,
+    "blowbackLength": 15,
+    "blowbackSpread": 15,
+    "particleColor": [
+      150,
+      150,
+      150,
+      125
+    ]
+  },
+  "fireSoundTwo": "pilum_lrm_fire"
+}

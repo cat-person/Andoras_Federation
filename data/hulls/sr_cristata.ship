@@ -1,0 +1,100 @@
+{
+  "hullName": "Cristata",
+  "hullId": "sr_cristata",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sr_cristata.png",
+  "style": "HOUSE_AUGUSTUS",
+  "height": 57,
+  "width": 70,
+  "center": [35, 25.5],
+  "collisionRadius": 38.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 38.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "hardenedshieldemitter"
+  ],
+  "builtInWeapons": {
+    "WS0004": "sr_thirteen",
+    "WS0005": "sr_thirteen"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [8, 24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [8, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [27, 10.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [27, -10.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, 12.5],
+      "length": 15,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-23, -12.5],
+      "length": 15,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HOUSE_AUGUSTUS"
+    }
+  ],
+  "bounds": [
+    -22.5, 24.5,
+    -9, 34.5,
+    11, 30,
+    11.5, 18,
+    29.5, 12,
+    31, 0.5,
+    29, -11,
+    10, -18.5,
+    10, -29.5,
+    -10, -33,
+    -22, -24
+  ]
+}

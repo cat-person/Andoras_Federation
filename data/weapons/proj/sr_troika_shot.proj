@@ -1,0 +1,22 @@
+{
+	"id":"sr_troika_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+        "onHitEffect":"data.scripts.weapons.Sr_DoTOnHit",
+	"length":44.0,
+	"width":8.0,
+	"hitGlowRadius":10,
+	"fadeTime":0.35,
+	"fringeColor":[255,210,30,175],
+	"coreColor":[255,135,135,200],
+        "glowColor":[255,165,30,105],
+	"glowRadius":20,
+        "darkCore":false,
+	"textureType":WEAVE,
+	"textureScrollSpeed":128.0,
+	"pixelsPerTexel":96.0,
+        "bulletSprite":"graphics/missiles/resonator_mrm.png"
+}

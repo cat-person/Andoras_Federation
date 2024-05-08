@@ -1,0 +1,47 @@
+{
+  "id": "sr_molten_shot_clone",
+  "specClass": "projectile",
+  "projectileSpecId": "sr_molten_shot_clone_proj",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/sr_raptureblaster_base.png",
+  "turretGunSprite": "graphics/weapons/sr_raptureblaster_recoil.png",
+  "hardpointSprite": "graphics/weapons/sr_raptureblaster_base.png",
+  "hardpointGunSprite": "graphics/weapons/sr_raptureblaster_recoil.png",
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    31.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    47.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 50,
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "particleDuration": 0.8,
+    "particleCount": 25,
+    "particleColor": [
+      255,
+      120,
+      50,
+      210
+    ]
+  },
+  "fireSoundTwo": "sr_shotgun_fire"
+}

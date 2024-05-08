@@ -1,0 +1,65 @@
+{
+  "hullName": "Florensis",
+  "hullId": "sr_miningsurveyor",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/sr_miningsurveyor.png",
+  "style": "HOUSE_BELLONA",
+  "height": 29,
+  "width": 18,
+  "center": [9, 14.5],
+  "collisionRadius": 18,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 18,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair"
+  ],
+  "builtInWeapons": {
+    "WS0001": "mininglaser",
+    "WS0002": "sr_miningsurveyor_lights"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [12, -3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [0, -1.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, -5.5],
+      "length": 10,
+      "width": 5,
+      "angle": -145,
+      "contrailSize": 10,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-6, 7.5],
+      "length": 10,
+      "width": 5,
+      "angle": 145,
+      "contrailSize": 10,
+      "style": "HOUSE_BELLONA"
+    }
+  ],
+  "bounds": [
+    6, -5.5,
+    -9, -6.5,
+    -7.5, 7,
+    6, 3.5
+  ]
+}

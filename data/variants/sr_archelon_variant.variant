@@ -1,0 +1,23 @@
+{
+  "variantId": "sr_archelon_variant_wing",
+  "hullId": "sr_archelon",
+  "displayName": "Shepard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sr_thirtyfour",
+        "WS0002": "sr_fightereater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

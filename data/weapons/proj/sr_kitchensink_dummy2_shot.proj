@@ -1,0 +1,21 @@
+{
+	"id":"sr_kitchensink_dummy2_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":30.0,
+	"hitGlowRadius":60,
+	"width":12.0,
+	"fadeTime":0.5,
+	"fringeColor":[30,255,170,175],
+	"coreColor":[175,255,225,200],
+	"glowColor":[170,255,175,105],
+	"glowRadius":20,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+        "passThroughFighters":false,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/missiles/sr_kitchensink_HE_shot.png"
+}

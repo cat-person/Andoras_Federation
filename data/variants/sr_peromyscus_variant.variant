@@ -1,0 +1,22 @@
+{
+  "variantId": "sr_peromyscus_variant_wing",
+  "hullId": "sr_peromyscus",
+  "displayName": "Disruptor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sr_thirteen"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

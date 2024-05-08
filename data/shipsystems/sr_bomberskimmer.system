@@ -1,0 +1,25 @@
+{
+	"id":"sr_bomberskimmer",
+	"type":"DISPLACER",
+	"aiType":"PHASE_DISPLACER",
+	
+	"jitterColor":[100,165,255,155],
+	"jitterCopies":10,
+	"jitterRange":0,
+	"jitterRangeRadiusFraction":0.5,
+	
+	"weaponGlowColor":[100,165,255,105],
+	"weaponTypes":[BALLISTIC],
+	
+	"engineGlowColor":[100,165,255,125],
+
+	"range":400,
+	"randomRange":25,
+	
+	"useSound":"system_phase_skimmer",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"averageSpeedIncrease":15,
+	}
+}

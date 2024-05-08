@@ -1,0 +1,61 @@
+{
+  "id": "sr_fiftyfour_short",
+  "specClass": "projectile",
+  "projectileSpecId": "sr_fiftyfour_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 400,
+  "turretSprite": "graphics/weapons/sr_fiftyfour_base.png",
+  "turretGlowSprite": "graphics/weapons/sr_fiftyfour_glow.png",
+  "turretGunSprite": "graphics/weapons/sr_fiftyfour_recoil.png",
+  "hardpointSprite": "graphics/weapons/sr_fiftyfour_base.png",
+  "hardpointGlowSprite": "graphics/weapons/sr_fiftyfour_glow.png",
+  "hardpointGunSprite": "graphics/weapons/sr_fiftyfour_recoil.png",
+  "glowColor": [
+    197,
+    204,
+    15,
+    80
+  ],
+  "visualRecoil": 8,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    23.5,
+    -6,
+    23.5,
+    4
+  ],
+  "turretAngleOffsets": [
+    -0,
+    0
+  ],
+  "hardpointOffsets": [
+    18,
+    -3.5,
+    18,
+    3.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 65,
+    "spread": 25,
+    "particleSizeMin": 8,
+    "particleSizeRange": 8,
+    "particleDuration": 0.12,
+    "particleCount": 46,
+    "particleColor": [
+      139,
+      144,
+      29,
+      80
+    ]
+  },
+  "fireSoundTwo": "sr_fiftyfour_short_fire"
+}

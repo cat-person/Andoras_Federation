@@ -1,0 +1,72 @@
+{
+  "hullName": "Peromyscus",
+  "hullId": "sr_peromyscus",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/sr_peromyscus.png",
+  "style": "HOUSE_AUGUSTUS",
+  "height": 27,
+  "width": 17,
+  "center": [8.5, 13],
+  "collisionRadius": 14.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 14.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 3,
+      "angle": 0,
+      "locations": [9.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, 4],
+      "length": 5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-9.5, 4],
+      "length": 5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-10.5, 6],
+      "length": 5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-9.5, -4],
+      "length": 5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-10.5, -6],
+      "length": 5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HOUSE_AUGUSTUS"
+    }
+  ],
+  "bounds": [
+    -8, 5.5,
+    -8, -5.5,
+    12, -0
+  ]
+}

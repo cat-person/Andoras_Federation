@@ -1,0 +1,58 @@
+{
+	"specClass":"projectile",
+	"id":"sr_scatterflash",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"displayArcRadius":150,
+	"turretSprite":"graphics/weapons/sr_scatterflash.png",
+	"turretGunSprite":"graphics/weapons/sr_scatterflash.png",		
+	"hardpointSprite":"graphics/weapons/sr_scatterflash.png",
+	"hardpointGunSprite":"graphics/weapons/sr_scatterflash.png",
+	"visualRecoil":0.0,  # the gun sprites are only used if this is non-0	
+	"turretOffsets":[
+19, -2,
+17, -1,
+21, 0,
+15, 0,
+23, 1,
+19, 2
+],
+	"turretAngleOffsets":[
+1.5,
+1,
+0.5,
+0.5,
+-1,
+-1.5
+],
+	"hardpointOffsets":[ 
+23, -2,
+26, -1,
+31, -0,
+20, 0,
+26, 1,
+29, 2
+],
+	"hardpointAngleOffsets":[
+1.5,
+1,
+0.5,
+0.5,
+-1,
+-1.5
+],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+        "separateRecoilForLinkedBarrels":"TRUE",
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{
+                "length":30.0,
+                "spread":15.0,
+                "particleSizeMin":10.0,
+                "particleSizeRange":12.0,
+                "particleDuration":0.12,
+                "particleCount":17,
+                "particleColor":[102,64,179,180]
+        },	
+	"projectileSpecId":"sr_scatterflash_shot",
+	"fireSoundOne":"disintegrator_fire",
+}

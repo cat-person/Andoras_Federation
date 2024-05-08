@@ -1,0 +1,18 @@
+{
+	"id":"sr_omnivore_big_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":45.0,
+	"width":15,
+	"fadeTime":0.3,
+	"fringeColor":[15,93,4,85],
+	"coreColor":[50,152,36,100],
+	"glowColor":[26,167,6,105],
+	"glowRadius":50,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png",
+}

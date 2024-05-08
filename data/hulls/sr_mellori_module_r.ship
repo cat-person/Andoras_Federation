@@ -1,0 +1,28 @@
+{
+  "hullName": "R Ablative Armor Module",
+  "hullId": "sr_mellori_module_r",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sr_flamecruiser_rmodule.png",
+  "style": "HOUSE_BELLONA",
+  "height": 113,
+  "width": 43,
+  "center": [12, 56.5],
+  "collisionRadius": 60,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "sr_ablative_armor"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -54, -8.5,
+    -40.5, -29.5,
+    39.5, -29.5,
+    54, -9,
+    54, 9.5,
+    -54, 10
+  ]
+}

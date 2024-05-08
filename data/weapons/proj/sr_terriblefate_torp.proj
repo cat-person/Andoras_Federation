@@ -1,0 +1,74 @@
+{
+	"id":"sr_terriblefate_torp",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"onHitEffect":"data.scripts.weapons.Sr_RiftTorpedoEffect",
+	"onFireEffect":"data.scripts.weapons.Sr_RiftTorpedoEffect",
+	"sprite":"graphics/missiles/sr_terriblefate_torp.png",
+	"glowSprite":"graphics/missiles/sr_terriblefate_torp_glow.png",
+        "glowColor": [
+          165,
+          160,
+          30,
+          105
+  ],
+	"size":[32,50],	
+	"center":[16,34],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[116,255,79,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":450, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":250,
+                                         "onExplosionEffect":"com.fs.starfarer.api.impl.combat.RiftCascadeMineExplosion",
+					 "coreRadius":150, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":8.0,
+					 "particleSizeRange":5.0,
+					 "particleDuration":2,
+					 "particleCount":1,
+					 "particleColor":[135,255,140,255]},
+	#"alwaysAccelerate":true,
+	#"reduceDamageWhileFading":true,
+	"noCollisionWhileFading":true,
+	"useHitGlowWhenDealingDamage":false, # using the scripted rift explosion instead
+	"useHitGlowWhenDestroyed":true, # instead of the default explosion
+	"dudProbabilityOnFlameout":0,
+	"fizzleOnReachingWeaponRange":true,					 
+	"armingTime":0.6,
+	"flameoutTime":0.2, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.2, # time spent without the engine glow being rendered
+	"fadeTime":0.2, # fadeout duration			
+	"glowRadius":180,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"applyOnHitEffectWhenPassThrough":false,
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":100,
+				  "acc":500,
+				  "dec":500},
+	"engineSlots":[{"id":"ES1",
+					#"loc":[0, 0],
+					"loc":[-24, -0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[86,224,70,215],
+						"glowSizeMult":1.2,
+						"glowAlternateColor":[85,255,0,225],
+						"contrailDuration":3,
+						"contrailWidthMult":1.3,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":3, # min segment length, in pixels
+						"contrailMaxSpeedMult":0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[155,224,150,105],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":14.0,
+				    "length":50.0,
+				    "angle":180.0}],
+}
+		

@@ -1,0 +1,167 @@
+{
+  "hullName": "Arctodus",
+  "hullId": "sr_arctodus",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sr_arctodus.png",
+  "style": "HOUSE_BELLONA",
+  "height": 286,
+  "width": 138,
+  "center": [73.5, 131.5],
+  "collisionRadius": 169,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 169,
+  "viewOffset": 0,
+  "builtInMods": [
+    "surveying_equipment",
+    "operations_center",
+    "nav_relay",
+    "hiressensors",
+    "high_maintenance",
+    "ecm",
+    "eccm",
+    "delicate"
+  ],
+  "builtInWeapons": {
+    "WS0005": "sr_taker",
+    "WS0006": "sr_taker",
+    "WS0007": "sr_taker",
+    "WS0008": "sr_taker",
+    "WS0009": "sr_taker",
+    "WS0010": "sr_taker"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 139.5,
+      "locations": [-62, 42.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 265,
+      "angle": 73.5,
+      "locations": [35.5, 47.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 264,
+      "angle": 81.5,
+      "locations": [3.5, 51.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [69.029999, 61.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 3,
+      "angle": -55,
+      "locations": [-50, -47]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 3,
+      "angle": -55,
+      "locations": [-37, -47]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 3,
+      "angle": -55,
+      "locations": [-24, -47]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 3,
+      "angle": -55,
+      "locations": [-11, -47]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 3,
+      "angle": -55,
+      "locations": [2, -47]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 2,
+      "angle": -55,
+      "locations": [15, -47]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-126.5, -17.5],
+      "length": 30,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-126.5, 11.5],
+      "length": 30,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-111.5, 42.5],
+      "length": 30,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HOUSE_BELLONA"
+    }
+  ],
+  "bounds": [
+    -117.5, -27,
+    -117.5, 19.5,
+    -96, 54,
+    -74.5, 66,
+    49.5, 68,
+    65.5, 63.5,
+    58.5, 32,
+    24, 32,
+    24, 13.5,
+    76, -0.5,
+    104, -6,
+    51.5, -12,
+    51.5, -54,
+    35.5, -46,
+    -79.5, -43
+  ]
+}

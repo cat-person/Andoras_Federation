@@ -1,0 +1,20 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+No Landing,sr_wing_no_landing,,,,,Special,,,TRUE,,0,0,0,0,src.data.scripts.hullmods.WingNoLanding,Prevent wing from repairing.,Prevent wing from repairing.,,graphics/hullmods/assault_package.png
+,,,,,,,,,,,,,,,,,,,
+Ancient House Armor,sr_ablative_armor,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.AblativeArmor,"An ancient House Belladona design intended to stop micro-meteorites, space debris, and discourage any villainous intentions during the centuries long migration from the core through sheer volume of material in place, this ancient armor uses the old methods of stacking on as much of the thickest hardest metal the engineers of the day could get their hands on.
+
+Reduces the effective armor strength for the damage reduction calculation to %s of its actual value. However, ships of this design tend to carry extremely heavy armor. This ancient armor is incompatible with newer alloys and application techniques blocking the application of other hullmods that increase hull armor.",Reduces damage reduction by armor.,,graphics/hullmods/sr_ancientarmor.png
+,,,,,,,,,,,,,,,,,,,
+Armor Blocker,sr_armorblocker,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Sr_ArmorBlocker,,,S Modding this kills you irl.,graphics/hullmods/ablative_armor.png
+,,,,,,,,,,,,,,,,,,,
+Belladona Gunnery Crews,sr_belladonagunners,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Sr_BelladonaVetGunners,"Military gunnery crews highly trained, conditioned and blooded by The House Belladona Guard are on board. RoF, Flux Effiency and Turn Rate of all ballistic weapons is increased by %s, %s and %s as a result.                                                                                                                                                                                       Belladona crews are considered the most elite out of the houses when it comes to ship to ship combat operations. The vast majority of Belladona citizens go through military conscription when they are about 18 cycles old and serve as junior members of the crew under the guidance of experienced spacers. This practice resulted in the formation of a competent spacer core that holds a strict military discipline even on civilian freighter assignments. The attitude of Belladona spacers towards their space born duties can be summed up by the following quotation from a veteran spacer: ""Even if all we have on our ship is a simple machinegun on a turret, we will still find a way to make the enemy regret being on the receiving end of its barrel"".",Improves ballistic weapon performance.,,graphics/hullmods/sr_vetgunners.png
+,,,,,,,,,,,,,,,,,,,
+Experimental Dual Reactor System,sr_VolatileExplosion,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Sr_VolatileExplosion,"A experimental auxiliary reactor is installed on board to power secondary systems and weapons.
+
+""The benefits of installing an Auxiliary Reactor can already be proven this early into field testing. The point I am trying to make is that you don't want one of these ships going supernova in a formation unless you want another incident like [REDACTED BY FEDERATION COMSEC]"" - Unknown Logistics Officer",Increases ship explosion radius and damage.,,graphics/hullmods/sr_bigboom.png
+,,,,,,,,,,,,,,,,,,,
+Prototype Bilateral Hangar,sr_vast_hangar,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.VastHangar,"This ship has a massive hangar running through the width of the ship.
+
+Prototype Hangar design allowing fighters to land on either side of the carrier. This design lets fighters and bombers land, rearm and repair and then exit through the opposite side of the carrier, this means they do not have to be repositioned before they redeploy like smaller standard hangars with one entrance/exit. 
+
+Supposedly this shortens time between fighter deployments but currently this is unproven. Ship has exetremely limited cargo space as a result. ",[REDACTED BY FEDERATION COMSEC],,graphics/hullmods/vast_hangar.png

@@ -1,0 +1,62 @@
+{
+  "hullName": "Moriorum",
+  "hullId": "sr_moriorum",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sr_moriorum.png",
+  "style": "HOUSE_BELLONA",
+  "height": 33,
+  "width": 29,
+  "center": [14.5, 16.5],
+  "collisionRadius": 18.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 18.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "sr_fightermg",
+    "WS0002": "sr_fightermg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [11, -7]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [11, 7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 1],
+      "length": 8,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-14, -1],
+      "length": 8,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HOUSE_BELLONA"
+    }
+  ],
+  "bounds": [
+    -3, -9,
+    -14, -0,
+    -3, 9,
+    15, -0
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "hullName": "Cariama",
+  "hullId": "sr_cariama",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sr_cariama.png",
+  "style": "HOUSE_AUGUSTUS",
+  "height": 99,
+  "width": 79,
+  "center": [40, 45.5],
+  "collisionRadius": 56,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 56,
+  "viewOffset": 0,
+  "builtInMods": [
+    "adaptive_coils",
+    "autorepair"
+  ],
+  "builtInWings": [
+    "sr_gruesli_archangel_drone_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "sr_ipc_r",
+    "WS0002": "sr_ipc_l"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25, 14]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25, -14]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0.5, 0.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0.5, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26.5, 21],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-26.5, -20.5],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-29.5, 0],
+      "length": 15,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-31.5, 7],
+      "length": 15,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-31.5, -7],
+      "length": 15,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HOUSE_AUGUSTUS"
+    }
+  ],
+  "bounds": [
+    -14.5, 38.5,
+    -32, 26,
+    -29, 17,
+    -45.5, 12.5,
+    -33.5, 9,
+    -33.5, -8.5,
+    -44, -10.5,
+    -29, -17,
+    -31.5, -27,
+    -23.5, -28,
+    -15.5, -37.5,
+    31, -20,
+    24.5, -13.5,
+    53, -0,
+    20.5, 14,
+    28, 20
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "hullName": "Hesperus",
+  "hullId": "sr_corpointerceptor",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sr_corpointerceptor.png",
+  "style": "HOUSE_RAA",
+  "height": 36,
+  "width": 67,
+  "center": [33.5, 18],
+  "collisionRadius": 37,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 37,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "distributed_fire_control"
+  ],
+  "builtInWeapons": {
+    "WS0002": "sr_lightburster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [7.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 145,
+      "locations": [-3.5, 6.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -145,
+      "locations": [-3.5, -6.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-4.5, 28],
+      "length": 10,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-4.5, -28],
+      "length": 10,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-10.5, -13.5],
+      "length": 10,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-10.5, 13.5],
+      "length": 10,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-16.5, -0],
+      "length": 15,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "SR_AENOCYON_VENOM"
+    }
+  ],
+  "bounds": [
+    16, -3,
+    -1, -32.5,
+    -7.5, -12,
+    -16.5, -6,
+    -16.5, 6,
+    -7.5, 12,
+    -1, 32.5,
+    16, 3
+  ]
+}

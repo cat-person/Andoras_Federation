@@ -1,0 +1,55 @@
+{
+  "id": "sr_dualrail",
+  "specClass": "projectile",
+  "projectileSpecId": "sr_dualrail_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/sr_doublerail.png",
+  "turretGlowSprite": "graphics/weapons/sr_doublerail_glow.png",
+  "turretGunSprite": "graphics/weapons/sr_doublerail.png",
+  "hardpointSprite": "graphics/weapons/sr_doublerail.png",
+  "glowColor": [
+    255,
+    150,
+    125,
+    255
+  ],
+  "turretOffsets": [
+    21,
+    5.5,
+    21,
+    -5.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    33.5,
+    5.5,
+    33.5,
+    -5.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 70,
+    "spread": 7,
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "particleDuration": 0.35,
+    "particleCount": 15,
+    "particleColor": [
+    255,
+    150,
+    125,
+    225
+  ],
+  },
+  "fireSoundTwo": "gauss_cannon_fire"
+}

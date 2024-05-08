@@ -1,0 +1,6 @@
+/jars*
+/out*
+/.github*
+/*.png~
+/*.kra
+/.DS_Store

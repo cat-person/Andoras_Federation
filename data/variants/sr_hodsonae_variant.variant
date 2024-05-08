@@ -1,0 +1,21 @@
+{
+  "variantId": "sr_hodsonae_variant",
+  "hullId": "sr_hodsonae",
+  "displayName": "EWAR Missile Carrier",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0004": "sr_hodsonaearmor_module_r_variant"
+    },
+    {
+      "WS0012": "sr_hodsonaearmor_module_l_variant"
+    }
+  ],
+  "wings": []
+}

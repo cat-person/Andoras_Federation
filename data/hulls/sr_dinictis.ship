@@ -1,0 +1,72 @@
+{
+  "hullName": "Dinictis",
+  "hullId": "sr_dinictis",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sr_dinictis.png",
+  "style": "HOUSE_BELLONA",
+  "height": 77,
+  "width": 64,
+  "center": [32, 33],
+  "collisionRadius": 46.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 46.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [22, 19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [17, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [22, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-29, 19],
+      "length": 40,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-29, -19],
+      "length": 40,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HOUSE_BELLONA"
+    }
+  ],
+  "bounds": [
+    9, 29,
+    -31, 29.5,
+    -25.5, -0.5,
+    -31, -29.5,
+    9, -29,
+    42, -0
+  ]
+}

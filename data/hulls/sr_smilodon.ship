@@ -1,0 +1,91 @@
+{
+  "hullName": "Smilodon",
+  "hullId": "sr_smilodon",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sr_smilodon.png",
+  "style": "HOUSE_AUGUSTUS",
+  "height": 68,
+  "width": 55,
+  "center": [27.5, 34],
+  "collisionRadius": 39,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 39,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "WS0001": "sr_interdictor",
+    "WS0002": "sr_interdictor",
+    "WS0003": "sr_thirteen"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [31, 10.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [31, -10.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [18.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-32.5, 6.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-31.5, -0],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-32.5, -6.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HOUSE_AUGUSTUS"
+    }
+  ],
+  "bounds": [
+    18, -3.5,
+    32.5, -10,
+    23.5, -14,
+    -3.5, -12,
+    7, -24,
+    -29, -11,
+    -29, 11,
+    7, 24,
+    -3.5, 12,
+    23.5, 14,
+    32.5, 10,
+    18, 3.5
+  ]
+}

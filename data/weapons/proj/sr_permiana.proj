@@ -1,0 +1,57 @@
+{
+	"id":"sr_permiana",
+	"specClass":"missile",	
+	"missileType":"HEATSEEKER",
+	"onFireEffect":"com.fs.starfarer.api.impl.combat.dem.DEMEffect",
+	"behaviorSpec":{"behavior":"CUSTOM",
+		"minDelayBeforeTriggering":0,
+		"triggerDistance":[200,250],
+		"preferredMinFireDistance":[250,275],
+		"turnRateBoost":300,
+		"targetingTime":0.75,
+		"firingTime":1.5,
+		"targetingLaserId":"targetinglaser2",
+		"targetingLaserFireOffset":[8, 0],
+		"payloadWeaponId":"sr_permiana_payload",
+		"targetingLaserRange":0,
+		"targetingLaserArc":3,
+		"bombPumped":false,
+		"snapFacingToTargetIfCloseEnough":true,
+		"fadeOutEngineWhenFiring":false;
+		"randomStrafe":true;
+		"destroyMissleWhenDoneFiring":true,
+		"destroyedExplosionColor":[80,5,176,235],
+	},
+	"sprite":"graphics/missiles/missile_vlrm_stage2+1.png",
+	"size":[6,16],	
+	"center":[3,8],
+	"collisionRadius":8,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[200,99,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":120, # purely visual	
+	"engineSpec":{"turnAcc":800,
+				  "turnRate":200,
+				  "acc":100,
+				  "dec":100},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[5,105,176,255],
+						"contrailDuration":1,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[5,105,176,75],
+						"glowSizeMult":3,
+						#"glowAlternateColor":[255,0,0,255],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0},
+				    ]
+}

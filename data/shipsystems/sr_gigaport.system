@@ -1,0 +1,42 @@
+{
+	"id":"sr_gigaport",
+	"type":"TELEPORTER",
+	"aiType":"PHASE_TELEPORTER_2",
+	
+	"jitterColor":[255,99,99,150],
+	#"jitterColor":[255,158,99,150],
+	"jitterCopies":9,
+	#"jitterRange":25,
+	"jitterRange":25,
+	"jitterRangeRadiusFraction":0.7,
+	
+	"weaponGlowColor":[255,255,99,75],
+	"weaponTypes":[BALLISTIC],
+	
+	#"engineGlowColor":[255,99,99,255],
+	#"engineGlowContrailColor":[199,137,99,35],
+	"engineGlowLengthMult":0,
+	"engineGlowWidthMult":0,
+	"engineGlowGlowMult":0,
+	
+	"range":2500,
+	"randomRange":0,
+	#"requiresZeroFluxBoost":false,
+	
+	"vulnerableChargeup":false,
+	"vulnerableChargedown":false,
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	
+	#"useSound":"system_teleport",
+	"useSound":"system_phase_teleporter",	
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":1000,
+		"averageSpeedIncrease":350,
+	}
+}

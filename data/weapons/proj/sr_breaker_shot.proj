@@ -1,0 +1,23 @@
+{
+	"id":"sr_breaker_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":50.0,
+	"hitGlowRadius":150,
+	"width":9.0,
+	"fadeTime":0.5,
+	"fringeColor":[255,75,30,175],
+	#"coreColor":[255,225,175,225],
+	"coreColor":[255,255,255,200],
+	"glowColor":[255,115,35,105],
+	"glowRadius":25,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/missiles/shell_hellbore.png"
+	#"bulletSprite":"graphics/missiles/shell_round_lrg.png"
+}
