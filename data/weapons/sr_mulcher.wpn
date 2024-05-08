@@ -1,0 +1,31 @@
+{
+	"id":"sr_mulcher",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"",
+	"hardpointSprite":"",	
+	#"turretSprite":"",
+	#"turretGunSprite":"",
+	#"hardpointSprite":"",
+	#"hardpointGunSprite":"",	
+	"visualRecoil":0,  # the gun sprites are only used if this is non-0
+	#"renderHints":["RENDER_BARREL_BELOW"],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"interruptibleBurst":true,
+	"muzzleFlashSpec":{"length":10.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":4.5,
+					   "particleSizeRange":4.5,
+					   "particleDuration":0.2,
+					   "particleCount":10,
+					   "particleColor":[0,220,225,175]},
+	"projectileSpecId":"sr_mulcher_shot",  # projectile that will be fired
+	#"fireSoundOne":"needler_spinup",
+	"fireSoundTwo":"burst_pd_fire",
+}

@@ -1,0 +1,53 @@
+{
+  "id": "sr_takeaknee",
+  "specClass": "projectile",
+  "projectileSpecId": "sr_molten_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/sr_raptureblaster_base.png",
+  "turretGunSprite": "graphics/weapons/sr_raptureblaster_recoil.png",
+  "hardpointSprite": "graphics/weapons/sr_raptureblaster_base.png",
+  "hardpointGunSprite": "graphics/weapons/sr_raptureblaster_recoil.png",
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    47.5,
+    6,
+    47.5,
+    -6
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    71.5,
+    6,
+    71.5,
+    -6
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 50,
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "particleDuration": 0.8,
+    "particleCount": 25,
+    "particleColor": [
+      255,
+      120,
+      50,
+      210
+    ]
+  },
+  "fireSoundTwo": "sr_shotgun_fire"
+}

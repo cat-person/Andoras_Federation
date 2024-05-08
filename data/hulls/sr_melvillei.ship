@@ -1,0 +1,1532 @@
+{
+  "hullName": "Melvillei",
+  "hullId": "sr_melvillei",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/sr_melvillei.png",
+  "style": "HOUSE_BELLONA",
+  "height": 645,
+  "width": 274,
+  "center": [138, 322],
+  "collisionRadius": 376,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 377,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sr_armorblocker",
+    "sr_ablative_armor",
+    "high_maintenance",
+    "distributed_fire_control",
+    "delicate",
+    "hbi",
+    "sr_belladonagunners",
+    "sr_VolatileExplosion"
+  ],
+  "builtInWings": [
+    "sr_albicollis_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "sr_livyatan",
+    "WS0017": "sr_melvillei_lights",
+    "WS0020": "sr_vernierEngine_white",
+    "WS0021": "sr_vernierEngine_white",
+    "WS0023": "sr_vernierEngine_white",
+    "WS0024": "sr_vernierEngine_white",
+    "WS0026": "sr_vernierEngine_white",
+    "WS0027": "sr_vernierEngine_white",
+    "WS0028": "sr_vernierEngine_white",
+    "WS0037": "sr_vernierEngine_white",
+    "WS0038": "sr_vernierEngine_white",
+    "WS0039": "sr_vernierEngine_white",
+    "WS0040": "sr_vernierEngine_white",
+    "WS0041": "sr_vernierEngine_white",
+    "WS0042": "sr_vernierEngine_white",
+    "WS0043": "sr_vernierEngine_white",
+    "WS0044": "sr_vernierEngine_white",
+    "WS0045": "sr_vernierEngine_white",
+    "WS0046": "sr_vernierEngine_white",
+    "WS0047": "sr_vernierEngine_white",
+    "WS0048": "sr_vernierEngine_white",
+    "WS0049": "sr_vernierEngine_white",
+    "WS0050": "sr_vernierEngine_white",
+    "WS0051": "sr_vernierEngine_white",
+    "WS0052": "sr_vernierEngine_white",
+    "WS0053": "sr_vernierEngine_white",
+    "WS0054": "sr_vernierEngine_white",
+    "WS0055": "sr_vernierEngine_white",
+    "WS0056": "sr_vernierEngine_white",
+    "WS0057": "sr_vernierEngine_white",
+    "WS0128": "sr_vernierEngine_white",
+    "WS0129": "sr_vernierEngine_white",
+    "WS0130": "sr_vernierEngine_white",
+    "WS0131": "sr_vernierEngine_white",
+    "WS0132": "sr_vernierEngine_white",
+    "WS0133": "sr_vernierEngine_white",
+    "WS0134": "sr_vernierEngine_white",
+    "WS0135": "sr_vernierEngine_white",
+    "WS0136": "sr_vernierEngine_white",
+    "WS0137": "sr_vernierEngine_white",
+    "WS0138": "sr_vernierEngine_white",
+    "WS0139": "sr_vernierEngine_white",
+    "WS0140": "sr_vernierEngine_white",
+    "WS0141": "sr_vernierEngine_white",
+    "WS0142": "sr_vernierEngine_white",
+    "WS0143": "sr_vernierEngine_white",
+    "WS0144": "sr_vernierEngine_white",
+    "WS0145": "sr_vernierEngine_white",
+    "WS0146": "sr_vernierEngine_white",
+    "WS0147": "sr_vernierEngine_white",
+    "WS0148": "sr_vernierEngine_white",
+    "WS0149": "sr_vernierEngine_white",
+    "WS0150": "sr_vernierEngine_white",
+    "WS0151": "sr_vernierEngine_white"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [259, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [158, 1]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [60, 48]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [60, -46]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [9, 48]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [9, -46]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-38, 56]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-38, -54]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -65,
+      "locations": [-99, -70]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 65,
+      "locations": [-99, 72]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 85,
+      "locations": [-167, 30]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -115,
+      "locations": [-148, -70]
+    },
+    {
+      "id": "WS0022",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-190, -44]
+    },
+    {
+      "id": "WS0025",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 115,
+      "locations": [-148, 72]
+    },
+    {
+      "id": "WS0029",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 180,
+      "locations": [-129, 1]
+    },
+    {
+      "id": "WS0030",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -85,
+      "locations": [-167, -28]
+    },
+    {
+      "id": "WS0031",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 0,
+      "locations": [-31, 1]
+    },
+    {
+      "id": "WS0036",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 0,
+      "locations": [91, 1]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 199,
+      "angle": 90,
+      "locations": [-226, 30]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 199,
+      "angle": -90,
+      "locations": [-226, -28]
+    },
+    {
+      "id": "WS0032",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 90,
+      "locations": [-190, 46]
+    },
+    {
+      "id": "WS0033",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 0,
+      "locations": [15, 1]
+    },
+    {
+      "id": "WS0034",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 180,
+      "locations": [-255, 1]
+    },
+    {
+      "id": "WS0035",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 180,
+      "locations": [-196, 1]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-118, 114]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-117.5, -108.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [195, 66]
+    },
+    {
+      "id": "WS0016",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [195, -61]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -75, 1,
+        -66.5, 0.5
+      ]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, 1]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [15, 69]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [15, -67]
+    },
+    {
+      "id": "WS0023",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [102, -67]
+    },
+    {
+      "id": "WS0024",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [102, 69]
+    },
+    {
+      "id": "WS0026",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [45, -67]
+    },
+    {
+      "id": "WS0027",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [45, 69]
+    },
+    {
+      "id": "WS0028",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [72, -67]
+    },
+    {
+      "id": "WS0037",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [72, 69]
+    },
+    {
+      "id": "WS0038",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [321, 46]
+    },
+    {
+      "id": "WS0039",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [321, -44]
+    },
+    {
+      "id": "WS0040",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [321, 38]
+    },
+    {
+      "id": "WS0041",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -0,
+      "locations": [321, -36]
+    },
+    {
+      "id": "WS0042",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [301, -58]
+    },
+    {
+      "id": "WS0043",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [301, 60]
+    },
+    {
+      "id": "WS0050",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-300, -31]
+    },
+    {
+      "id": "WS0051",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-300, 33]
+    },
+    {
+      "id": "WS0053",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-258, -59]
+    },
+    {
+      "id": "WS0054",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-214, 90]
+    },
+    {
+      "id": "WS0055",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-214, -88]
+    },
+    {
+      "id": "WS0044",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-258, 60]
+    },
+    {
+      "id": "WS0045",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-208, 97.5]
+    },
+    {
+      "id": "WS0046",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-208, -95.5]
+    },
+    {
+      "id": "WS0047",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-212, 92.5]
+    },
+    {
+      "id": "WS0048",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-212, -90.5]
+    },
+    {
+      "id": "WS0049",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [313, 54]
+    },
+    {
+      "id": "WS0052",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -0,
+      "locations": [313, -52]
+    },
+    {
+      "id": "WS0056",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [316, 50]
+    },
+    {
+      "id": "WS0057",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -0,
+      "locations": [316, -48]
+    },
+    {
+      "id": "WS0058",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -44,
+      "locations": [-18.5, -83.5]
+    },
+    {
+      "id": "WS0059",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 44,
+      "locations": [-18.5, 83.5]
+    },
+    {
+      "id": "WS0060",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -44,
+      "locations": [-31.5, -98]
+    },
+    {
+      "id": "WS0061",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 44,
+      "locations": [-31.5, 98]
+    },
+    {
+      "id": "WS0062",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -44,
+      "locations": [-8.5, -73.5]
+    },
+    {
+      "id": "WS0063",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 44,
+      "locations": [-8.5, 73.5]
+    },
+    {
+      "id": "WS0064",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-57.5, 116.5]
+    },
+    {
+      "id": "WS0065",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-57.5, -116.5]
+    },
+    {
+      "id": "WS0066",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-72, 116.5]
+    },
+    {
+      "id": "WS0067",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-72, -116.5]
+    },
+    {
+      "id": "WS0068",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-90, 116.5]
+    },
+    {
+      "id": "WS0069",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-90, -116.5]
+    },
+    {
+      "id": "WS0070",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-104.5, 116.5]
+    },
+    {
+      "id": "WS0071",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-104.5, -116.5]
+    },
+    {
+      "id": "WS0072",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-120, 116.5]
+    },
+    {
+      "id": "WS0073",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-120, -116.5]
+    },
+    {
+      "id": "WS0074",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-135.5, 116.5]
+    },
+    {
+      "id": "WS0075",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-135.5, -116.5]
+    },
+    {
+      "id": "WS0076",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-158, 116.5]
+    },
+    {
+      "id": "WS0077",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-158, -116.5]
+    },
+    {
+      "id": "WS0078",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-175, 116.5]
+    },
+    {
+      "id": "WS0079",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-175, -116.5]
+    },
+    {
+      "id": "WS0080",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 130.5,
+      "locations": [-199, 100.5]
+    },
+    {
+      "id": "WS0081",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -130.5,
+      "locations": [-199, -100.5]
+    },
+    {
+      "id": "WS0082",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 130.5,
+      "locations": [-279, 36.5]
+    },
+    {
+      "id": "WS0083",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -130.5,
+      "locations": [-279, -36.5]
+    },
+    {
+      "id": "WS0084",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 130.5,
+      "locations": [-234, 69.5]
+    },
+    {
+      "id": "WS0085",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -130.5,
+      "locations": [-234, -69.5]
+    },
+    {
+      "id": "WS0086",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 132.5,
+      "locations": [-258, 62]
+    },
+    {
+      "id": "WS0087",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -132.5,
+      "locations": [-258, -62]
+    },
+    {
+      "id": "WS0088",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-218, 92.5]
+    },
+    {
+      "id": "WS0089",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-218, -92.5]
+    },
+    {
+      "id": "WS0090",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [15.5, 69.5]
+    },
+    {
+      "id": "WS0091",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [15.5, -69.5]
+    },
+    {
+      "id": "WS0092",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [33.5, 69.5]
+    },
+    {
+      "id": "WS0093",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [33.5, -69.5]
+    },
+    {
+      "id": "WS0094",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [58, 69.5]
+    },
+    {
+      "id": "WS0095",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [58, -69.5]
+    },
+    {
+      "id": "WS0096",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [74.5, 69]
+    },
+    {
+      "id": "WS0097",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [74.5, -69]
+    },
+    {
+      "id": "WS0098",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [93.5, 69.5]
+    },
+    {
+      "id": "WS0099",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [93.5, -69.5]
+    },
+    {
+      "id": "WS0100",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [116, 69.5]
+    },
+    {
+      "id": "WS0101",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [116, -69.5]
+    },
+    {
+      "id": "WS0102",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [138, 69.5]
+    },
+    {
+      "id": "WS0103",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [138, -69.5]
+    },
+    {
+      "id": "WS0104",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [157, 69.5]
+    },
+    {
+      "id": "WS0105",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [157, -69.5]
+    },
+    {
+      "id": "WS0106",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [173.5, 69]
+    },
+    {
+      "id": "WS0107",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [173.5, -69]
+    },
+    {
+      "id": "WS0108",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [193, 68.5]
+    },
+    {
+      "id": "WS0109",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [193, -68.5]
+    },
+    {
+      "id": "WS0110",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [215, 68.5]
+    },
+    {
+      "id": "WS0111",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [215, -68.5]
+    },
+    {
+      "id": "WS0112",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [236, 68.5]
+    },
+    {
+      "id": "WS0113",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [236, -68.5]
+    },
+    {
+      "id": "WS0114",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [257, 68.5]
+    },
+    {
+      "id": "WS0115",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [257, -68.5]
+    },
+    {
+      "id": "WS0116",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [274, 60.5]
+    },
+    {
+      "id": "WS0117",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [274, -60.5]
+    },
+    {
+      "id": "WS0118",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [292.5, 60]
+    },
+    {
+      "id": "WS0119",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [293, -60]
+    },
+    {
+      "id": "WS0120",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [312.5, 54]
+    },
+    {
+      "id": "WS0121",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -0,
+      "locations": [312.5, -54]
+    },
+    {
+      "id": "WS0122",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [319, 42]
+    },
+    {
+      "id": "WS0123",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -0,
+      "locations": [319, -42]
+    },
+    {
+      "id": "WS0124",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [307, 30]
+    },
+    {
+      "id": "WS0125",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -0,
+      "locations": [307, -30]
+    },
+    {
+      "id": "WS0126",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [294.5, 16]
+    },
+    {
+      "id": "WS0127",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -0,
+      "locations": [294.5, -16]
+    },
+    {
+      "id": "WS0128",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 45,
+      "locations": [-9, 74.5]
+    },
+    {
+      "id": "WS0129",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -45,
+      "locations": [-9, -74.5]
+    },
+    {
+      "id": "WS0130",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 45,
+      "locations": [-19, 85]
+    },
+    {
+      "id": "WS0131",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -45,
+      "locations": [-19, -85]
+    },
+    {
+      "id": "WS0132",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 45,
+      "locations": [-27.5, 95]
+    },
+    {
+      "id": "WS0133",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -45,
+      "locations": [-27.5, -95]
+    },
+    {
+      "id": "WS0134",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 45,
+      "locations": [-35.5, 104.5]
+    },
+    {
+      "id": "WS0135",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -45,
+      "locations": [-35.5, -104.5]
+    },
+    {
+      "id": "WS0136",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -45,
+      "locations": [304, -55]
+    },
+    {
+      "id": "WS0137",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 45,
+      "locations": [304, 55]
+    },
+    {
+      "id": "WS0138",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -0,
+      "locations": [307.5, -26]
+    },
+    {
+      "id": "WS0139",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [307.5, 26]
+    },
+    {
+      "id": "WS0140",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [295, -14]
+    },
+    {
+      "id": "WS0141",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -0,
+      "locations": [295, 14]
+    },
+    {
+      "id": "WS0142",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -0,
+      "locations": [297.5, -19.5]
+    },
+    {
+      "id": "WS0143",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 0,
+      "locations": [297.5, 19.5]
+    },
+    {
+      "id": "WS0144",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-293.5, -33]
+    },
+    {
+      "id": "WS0145",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-293.5, 33]
+    },
+    {
+      "id": "WS0146",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-249, -67]
+    },
+    {
+      "id": "WS0147",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-249, 67]
+    },
+    {
+      "id": "WS0148",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [293, 60]
+    },
+    {
+      "id": "WS0149",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [292.5, -60]
+    },
+    {
+      "id": "WS0150",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 90,
+      "locations": [282.5, 60]
+    },
+    {
+      "id": "WS0151",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": -90,
+      "locations": [282.5, -60]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-230, 68],
+      "length": 60,
+      "width": 50,
+      "angle": 180,
+      "contrailSize": 40,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-276, 41],
+      "length": 50,
+      "width": 40,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-320, 11],
+      "length": 40,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-320, -9],
+      "length": 40,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-276, -39],
+      "length": 50,
+      "width": 40,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-230, -66],
+      "length": 60,
+      "width": 50,
+      "angle": 180,
+      "contrailSize": 40,
+      "style": "HOUSE_BELLONA"
+    }
+  ],
+  "bounds": [
+    149, -53.5,
+    138.5, -63,
+    -9.5, -65.5,
+    -36.5, -92.5,
+    -191.5, -92.5,
+    -233.5, -67,
+    -249.5, -66.5,
+    -277.5, -35.5,
+    -309.5, -27.5,
+    -309.5, 27.5,
+    -277.5, 35.5,
+    -250, 67,
+    -233.5, 67,
+    -187, 96.5,
+    -37.5, 96.5,
+    -4, 65.5,
+    134, 66,
+    150, 53.5,
+    302, 54,
+    323, 43,
+    294, 19,
+    294.5, -17,
+    322.5, -40.5,
+    299, -52.5
+  ]
+}

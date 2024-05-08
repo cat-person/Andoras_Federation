@@ -1,0 +1,18 @@
+{
+	"id":"sr_interdictor_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":20.0,
+	"width":10,
+	"fadeTime":0.3,
+	"fringeColor":[168,0,0,110],
+	"coreColor":[255,51,51,150],
+	"glowColor":[255,30,30,180],
+	"glowRadius":20,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/missiles/shell_round_sml.png",
+}

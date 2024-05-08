@@ -1,0 +1,49 @@
+{
+  "id": "sr_ipc_l",
+  "specClass": "projectile",
+  "projectileSpecId": "sr_ipc_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "",
+  "turretGlowSprite": "graphics/weapons/sr_seriema_cannon_glow.png",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "graphics/weapons/sr_seriema_cannon_glow.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    -23,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    7.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "sr_carbine_fire"
+}

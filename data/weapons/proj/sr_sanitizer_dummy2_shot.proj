@@ -1,0 +1,23 @@
+{
+	"id":"sr_sanitizer_dummy2_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":20.0,
+	"hitGlowRadius":40,
+	"width":10.0,
+	"fadeTime":0.4,
+	"fringeColor":[255,0,240,235],
+	#"coreColor":[255,255,200,150],
+	"coreColor":[225,0,160,200],	
+	"glowColor":[255,194,245,105],
+	"glowRadius":20,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+        "passThroughFighters":false,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/missiles/sr_sanitizer_shot.png"
+	#"bulletSprite":"graphics/missiles/sr_sanitizer_shot.png"
+}

@@ -1,0 +1,20 @@
+{
+	"id":"sr_zapbrannigan_payload_shot",
+	"onFireEffect":"data.scripts.weapons.Sr_ShockRepeaterOnFireEffect",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":0,
+	"hitGlowRadius":3,
+	"width":0,
+	"fadeTime":0.5,
+	"fringeColor":[255,0,255,255],
+	"coreColor":[180,25,50,255],
+        "glowColor":[255,5,5,255],
+	#"glowRadius":10,
+	"textureType":"ROUGH",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	"textureScrollSpeed":32.0,
+	"pixelsPerTexel":2.0,
+	"bulletSprite":""
+}

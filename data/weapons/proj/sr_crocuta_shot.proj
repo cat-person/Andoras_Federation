@@ -1,0 +1,22 @@
+{
+	"id":"sr_crocuta_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":20.0,
+	"hitGlowRadius":10,
+	"width":7.0,
+	"fadeTime":0.35,
+	"fringeColor":[235,255,215,235],
+	"coreColor":[225,255,220,200],	
+	"glowColor":[255,255,220,105],
+	"glowRadius":10,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+        "passThroughFighters":false,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/missiles/sr_shaped_charge.png"
+	#"bulletSprite":"graphics/missiles/shell_round_lrg.png"
+}

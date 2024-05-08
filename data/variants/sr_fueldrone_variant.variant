@@ -1,0 +1,22 @@
+{
+  "variantId": "sr_fueldrone_variant_wing",
+  "hullId": "sr_fueldrone",
+  "displayName": "(Altered)",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sr_fueldrone_am"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

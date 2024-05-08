@@ -1,0 +1,22 @@
+{
+  "variantId": "sr_arcos_drone_variant_wing",
+  "hullId": "sr_arcos_drone",
+  "displayName": "Anti-Fighter PD Escort",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sr_euryale"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

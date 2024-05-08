@@ -1,0 +1,62 @@
+{
+  "id": "sr_taker",
+  "specClass": "projectile",
+  "projectileSpecId": "sr_taker_mrm",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "",
+  "turretGunSprite": "",
+  "hardpointSprite": "",
+  "turretOffsets": [
+    -1.5,
+    -3,
+    1,
+    -0.5,
+    3.5,
+    2,
+    6,
+    4.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    4.5,
+    -2.5,
+    7,
+    0,
+    9.5,
+    2.5,
+    12,
+    4.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 6,
+    "particleSizeRange": 14,
+    "cloudParticleCount": 2,
+    "cloudDuration": 1,
+    "cloudRadius": 6,
+    "blowbackParticleCount": 2,
+    "blowbackDuration": 0.8,
+    "blowbackLength": 12,
+    "blowbackSpread": 6,
+    "particleColor": [
+      171,
+      150,
+      150,
+      80
+    ]
+  },
+  "fireSoundTwo": "gorgon_fire"
+}

@@ -1,0 +1,187 @@
+{
+  "hullName": "Megalonyx",
+  "hullId": "sr_megalonyx",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sr_megalonyx.png",
+  "style": "HOUSE_BELLONA",
+  "height": 425,
+  "width": 178,
+  "center": [97.5, 168.5],
+  "collisionRadius": 174,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 174,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons"
+  ],
+  "builtInWeapons": {
+    "WS0013": "sr_sarissa_l"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [54.5, 30.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135.5,
+      "locations": [-10.5, -11.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": -145,
+      "locations": [-58, -28.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 154,
+      "locations": [-60.5, 51.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 154,
+      "locations": [-92.5, 51.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 218,
+      "angle": -75,
+      "locations": [82.5, -19.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": -145.5,
+      "locations": [-41.5, -42.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 92.5,
+      "locations": [-10.5, 74]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 310,
+      "angle": -155.5,
+      "locations": [-94.5, -8.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 310,
+      "angle": -170,
+      "locations": [-94.5, 13.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [113, -45.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [156, -8.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [112.5, 80.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-140, 51.5],
+      "length": 25,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-153, 22.5],
+      "length": 25,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-153, -17.5],
+      "length": 25,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HOUSE_BELLONA"
+    }
+  ],
+  "bounds": [
+    -153.5, -25.5,
+    -153, 30,
+    -132.5, 33,
+    -131, 60.5,
+    -109, 71.5,
+    -45, 71.5,
+    -24.5, 92.5,
+    106, 86.5,
+    129, 48.5,
+    130.5, 8.5,
+    154.5, -1,
+    149.5, -21,
+    112, -25.5,
+    104.5, -57,
+    -20.5, -58.5,
+    -28.5, -68.5,
+    -57.5, -67,
+    -62.5, -51.5,
+    -114, -46.5,
+    -127.5, -28.5
+  ]
+}

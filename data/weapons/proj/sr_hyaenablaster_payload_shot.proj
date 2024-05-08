@@ -1,0 +1,16 @@
+{
+	"id":"sr_hyaenablaster_payload_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":25.0,
+	"width":17.0,
+	"fadeTime":0.25,
+	"fringeColor":[225,170,0,205],
+	"coreColor":[75,45,0,255],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":""
+}

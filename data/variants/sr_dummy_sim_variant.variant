@@ -1,0 +1,45 @@
+{
+  "variantId": "sr_dummy_sim_variant",
+  "hullId": "sr_bigdumbbox",
+  "displayName": "Sim Dummy",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdburst",
+        "WS0005": "pdburst",
+        "WS0006": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdlaser",
+        "WS0007": "pdlaser",
+        "WS0010": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lrpdlaser",
+        "WS0002": "lrpdlaser",
+        "WS0008": "lrpdlaser",
+        "WS0009": "lrpdlaser",
+        "WS0011": "lrpdlaser",
+        "WS0012": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

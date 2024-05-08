@@ -1,0 +1,30 @@
+{
+  "hullName": "L Armor Module",
+  "hullId": "sr_bandersnatch_module_l",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sr_bandersnatch_l_module.png",
+  "style": "HOUSE_BELLONA",
+  "height": 220,
+  "width": 71,
+  "center": [36, 118.5],
+  "collisionRadius": 94,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 94,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "reduced_explosion",
+    "sr_ablative_armor",
+    "sr_armorblocker"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    78.5, -15,
+    73, -21.5,
+    -80, -21,
+    -80, 21,
+    73, 21.5,
+    78.5, 15
+  ]
+}

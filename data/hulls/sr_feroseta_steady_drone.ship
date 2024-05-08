@@ -1,0 +1,53 @@
+{
+  "hullName": "Feroseta Drone",
+  "hullId": "sr_feroseta_steady_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/sr_feroseta_drone.png",
+  "style": "MIDLINE",
+  "height": 22,
+  "width": 14,
+  "center": [7, 10.5],
+  "collisionRadius": 10,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 10,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine",
+    "pointdefenseai",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [5.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8.5, -2],
+      "length": 7,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-8.5, 2],
+      "length": 7,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -8.5, -0,
+    -4.5, -5,
+    9.5, -0,
+    -4.5, 5
+  ]
+}

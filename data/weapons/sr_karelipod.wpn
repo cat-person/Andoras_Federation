@@ -1,0 +1,49 @@
+{
+  "id": "sr_karelipod",
+  "specClass": "projectile",
+  "projectileSpecId": "sr_kareli_srm",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/ships/mechs/kareli/missile_2.png",
+  "hardpointSprite": "graphics/ships/mechs/kareli/missile_2.png",
+  "turretOffsets": [
+    -1.5,
+    0,
+    4.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    15.5,
+    0,
+    21,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 4,
+    "cloudDuration": 0.8,
+    "cloudRadius": 4,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      150,
+      171,
+      162,
+      100
+    ]
+  },
+  "fireSoundTwo":"swarmer_fire",
+}

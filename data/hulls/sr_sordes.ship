@@ -1,0 +1,126 @@
+{
+  "hullName": "Sordes",
+  "hullId": "sr_sordes",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sr_sordes.png",
+  "style": "MIDLINE",
+  "height": 71,
+  "width": 52,
+  "center": [26, 34.5],
+  "collisionRadius": 42,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 42,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advanced_ground_support",
+    "autorepair",
+    "hardenedshieldemitter"
+  ],
+  "builtInWings": [
+    "sr_piksi_drone_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "sr_sanitizer",
+    "WS0002": "sr_solarrender",
+    "WS0003": "sr_taker",
+    "WS0004": "sr_ripper",
+    "WS0005": "sr_taker"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [17, 7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-6.5, 1]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-19.5, 8]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-19.5, 8]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-10.5, 22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [1.5, -17.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-7.5, 22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30.5, 13.5],
+      "length": 25,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-30.5, -11.5],
+      "length": 25,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -33, -15,
+    -9, -24,
+    11, -23.5,
+    10, -10.5,
+    23.5, -0,
+    36, 2,
+    36, 14.5,
+    -0.5, 24.5,
+    -33, 17,
+    -33, 10.5,
+    -25.5, 1,
+    -33, -7.5
+  ]
+}

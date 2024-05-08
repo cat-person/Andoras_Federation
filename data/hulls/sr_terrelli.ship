@@ -1,0 +1,293 @@
+{
+  "hullName": "Terrelli",
+  "hullId": "sr_terrelli",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sr_terrelli.png",
+  "style": "HIGH_TECH",
+  "height": 138,
+  "width": 300,
+  "center": [150, 62],
+  "collisionRadius": 159.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 159.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine",
+    "phasefield",
+    "solar_shielding"
+  ],
+  "builtInWeapons": {
+    "WS0001": "sr_forsteri",
+    "WS0002": "sr_forsteri",
+    "WS0013": "sr_terrelli_engine_l",
+    "WS0014": "sr_terrelli_engine_r",
+    "WS0015": "sr_barracuda",
+    "WS0016": "sr_barracuda",
+    "WS0017": "sr_solandri",
+    "WS0018": "sr_solandri",
+    "WS0019": "sr_terrelli_lights"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [46, 27]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [46, -27]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": -0,
+      "locations": [33, 49]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 0,
+      "locations": [33, -49]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": -0,
+      "locations": [3, 106]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 0,
+      "locations": [3, -106]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -0,
+      "locations": [26, 97]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 0,
+      "locations": [26, -97]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -0,
+      "locations": [14, 79]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 0,
+      "locations": [14, -79]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -0,
+      "locations": [34, 71]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 0,
+      "locations": [34, -71]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-43.5, 51]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-43.5, -47.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [59, 31.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [59, -31.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [51.5, 30]
+    },
+    {
+      "id": "WS0018",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [51.5, -30]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [34.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18, 82.5],
+      "length": 45,
+      "width": 18,
+      "angle": 127.5,
+      "contrailSize": 50,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-19, 64],
+      "length": 45,
+      "width": 18,
+      "angle": 140,
+      "contrailSize": 50,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-21.5, 48],
+      "length": 45,
+      "width": 18,
+      "angle": 150.5,
+      "contrailSize": 50,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-22, 28.5],
+      "length": 45,
+      "width": 18,
+      "angle": 157.5,
+      "contrailSize": 50,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-22, -28.5],
+      "length": 45,
+      "width": 18,
+      "angle": -158,
+      "contrailSize": 50,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-21.5, -48],
+      "length": 45,
+      "width": 18,
+      "angle": -152.5,
+      "contrailSize": 50,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-19, -64],
+      "length": 45,
+      "width": 18,
+      "angle": -140,
+      "contrailSize": 50,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-18, -82.5],
+      "length": 45,
+      "width": 18,
+      "angle": -127.5,
+      "contrailSize": 50,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-23, 14],
+      "length": 55,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 55,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-23, -14],
+      "length": 55,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 55,
+      "style": "HOUSE_AUGUSTUS"
+    }
+  ],
+  "bounds": [
+    -7, -147,
+    -48, 0,
+    -7, 147,
+    33.5, 104,
+    72, -0,
+    33.5, -104
+  ]
+}

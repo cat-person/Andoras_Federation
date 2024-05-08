@@ -1,0 +1,113 @@
+{
+  "hullName": "Delfini",
+  "hullId": "sr_delfini",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sr_delfini.png",
+  "style": "HOUSE_AUGUSTUS",
+  "height": 70,
+  "width": 76,
+  "center": [38, 33],
+  "collisionRadius": 42.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 42.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "insulatedengine",
+    "advanced_ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0004": "sr_falcata",
+    "WS0005": "sr_falcata"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 310,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [5, 26]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [5, -26]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [18.5, 16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": -0,
+      "locations": [18.5, -16]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25.5, 12],
+      "length": 20,
+      "width": 8,
+      "angle": 140,
+      "contrailSize": 20,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-25.5, -12],
+      "length": 20,
+      "width": 8,
+      "angle": -140,
+      "contrailSize": 20,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-20, 18.5],
+      "length": 20,
+      "width": 8,
+      "angle": 140,
+      "contrailSize": 20,
+      "style": "HOUSE_AUGUSTUS"
+    },
+    {
+      "location": [-20, -18.5],
+      "length": 20,
+      "width": 8,
+      "angle": -140,
+      "contrailSize": 20,
+      "style": "HOUSE_AUGUSTUS"
+    }
+  ],
+  "bounds": [
+    -25.5, -11.5,
+    -25.5, 11.5,
+    -0.5, 34,
+    12, 17,
+    34, -0,
+    12, -17,
+    -0.5, -34
+  ]
+}

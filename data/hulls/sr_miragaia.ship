@@ -1,0 +1,148 @@
+{
+  "hullName": "Miragaia",
+  "hullId": "sr_miragaia",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sr_miragaia.png",
+  "style": "HOUSE_BELLONA",
+  "height": 238,
+  "width": 110,
+  "center": [56.5, 121],
+  "collisionRadius": 136,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 136,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "autorepair"
+  ],
+  "builtInWings": [
+    "sr_miningdrone_wing"
+  ],
+  "builtInWeapons": {
+    "WS0008": "sr_gregaria"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 0,
+      "locations": [5.5, -13.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 90,
+      "locations": [34, 20.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 90,
+      "locations": [-69, 15.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -90,
+      "locations": [-64, -14]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 180,
+      "locations": [-99, 20.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 180,
+      "locations": [-99, -21.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 0,
+      "locations": [34, -7.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -90,
+      "locations": [-28.5, -25.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -17.5, 50.5,
+        -18, 48.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        9.5, 50.5,
+        9, 47.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-120, -0.5],
+      "length": 70,
+      "width": 40,
+      "angle": 180,
+      "contrailSize": 70,
+      "style": "HOUSE_BELLONA"
+    }
+  ],
+  "bounds": [
+    -118.5, 15.5,
+    -118.5, -14,
+    -93, -40,
+    -79.5, -46,
+    -66, -48,
+    -46.5, -45,
+    6, -49,
+    110.5, -41,
+    110.5, 45,
+    40.5, 45.5,
+    30, 55,
+    -37.5, 55,
+    -46.5, 51,
+    -79.5, 52
+  ]
+}

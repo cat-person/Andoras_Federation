@@ -1,0 +1,32 @@
+{
+	"id":"sr_gigaskimmer",
+	"type":"DISPLACER",
+	"aiType":"PHASE_DISPLACER",
+	
+	
+	"jitterColor":[255,245,103,125],
+	#"jitterColor":[255,102,102,150],
+	"jitterCopies":15,
+	"jitterRange":7,
+	"jitterRangeRadiusFraction":0.7,
+	
+	"weaponGlowColor":[255,99,99,100],
+	"weaponTypes":[BALLISTIC],
+	
+	"engineGlowColor":[255,99,99,125],
+
+	"range":450,
+	"randomRange":0,
+	
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"system_phase_skimmer",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":300,
+		"averageSpeedIncrease":30,
+	}
+}

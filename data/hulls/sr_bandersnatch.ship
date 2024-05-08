@@ -1,0 +1,416 @@
+{
+  "hullName": "Bandersnatch",
+  "hullId": "sr_bandersnatch",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/sr_bandersnatch.png",
+  "style": "HOUSE_BELLONA",
+  "height": 440,
+  "width": 162,
+  "center": [81, 225.5],
+  "collisionRadius": 248.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 248,
+  "viewOffset": 0,
+  "builtInMods": [
+    "operations_center",
+    "bdeck",
+    "sr_belladonagunners"
+  ],
+  "builtInWeapons": {
+    "WS00010": "sr_sarissa_l",
+    "WS0002": "sr_sarissa_r"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 40,
+      "locations": [185.5, 38]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [159.5, 40]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 90,
+      "locations": [-95.5, 49]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 90,
+      "locations": [-175.5, 50]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 180,
+      "locations": [-157.5, -0]
+    },
+    {
+      "id": "WS00010",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [172.5, 52]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [172.5, -52]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 90,
+      "locations": [-135, 50]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -90,
+      "locations": [-175.5, -50]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -90,
+      "locations": [-135, -51]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -90,
+      "locations": [-95.5, -49]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-204.5, 18]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-204.5, -18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -40,
+      "locations": [185.5, -38]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [159.5, -40]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 0,
+      "locations": [-3, 49]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 0,
+      "locations": [-3, -49]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        72, 38,
+        72.5, 35.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        72, -34,
+        72.5, -35
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        12, -34.5,
+        12, -34.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -39, 35.5,
+        -39, 35.5
+      ]
+    },
+    {
+      "id": "LB 5",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -9.5, -36.5,
+        -9.5, -36.5
+      ]
+    },
+    {
+      "id": "LB 6",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -67.5, -16.5,
+        -67, -16.5
+      ]
+    },
+    {
+      "id": "LB 7",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        18.5, 35,
+        18.5, 35
+      ]
+    },
+    {
+      "id": "LB 8",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -68.5, 17,
+        -68.5, 18
+      ]
+    },
+    {
+      "id": "LB 9",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -10, 39.5,
+        -10, 39.5
+      ]
+    },
+    {
+      "id": "LB 10",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -38.5, -35,
+        -38.5, -35
+      ]
+    },
+    {
+      "id": "LB 11",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        125.5, 33.5,
+        125.5, 33.5
+      ]
+    },
+    {
+      "id": "LB 12",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        127, -33,
+        127, -33
+      ]
+    },
+    {
+      "id": "LB 13",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -64.5, 0.5,
+        -64.5, 0.5
+      ]
+    },
+    {
+      "id": "LB 14",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        89.5, 38,
+        90.5, 34
+      ]
+    },
+    {
+      "id": "LB 15",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        93.5, -34.5,
+        93.5, -34.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-197.5, 51],
+      "length": 30,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-224.5, -27],
+      "length": 30,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-224.5, 27],
+      "length": 30,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HOUSE_BELLONA"
+    },
+    {
+      "location": [-197.5, -51],
+      "length": 30,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HOUSE_BELLONA"
+    }
+  ],
+  "bounds": [
+    -72.5, -68.5,
+    -183.5, -69.5,
+    -197.5, -58.5,
+    -198, -43,
+    -212, -43,
+    -224, -33.5,
+    -214.5, -13,
+    -214.5, 13,
+    -222.5, 34.5,
+    -199, 44,
+    -196, 58,
+    -184, 71.5,
+    -81.5, 71.5,
+    -62.5, 62.5,
+    51, 67.5,
+    165.5, 66,
+    178.5, 49,
+    191, 21.5,
+    191.5, -22,
+    164.5, -66,
+    47, -62.5,
+    -64.5, -60
+  ]
+}
