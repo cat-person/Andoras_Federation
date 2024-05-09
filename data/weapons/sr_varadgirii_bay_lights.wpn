@@ -1,5 +1,5 @@
 {
-  "id": "sr_terrelli_lights",
+  "id": "sr_varadgirii_bay_lights",
   "specClass": "beam",
   "type": "DECORATIVE",
   "size": "SMALL",
@@ -7,8 +7,8 @@
   "collisionClass": "RAY",
   "renderHints":["RENDER_ADDITIVE"],
   "collisionClassByFighter": "RAY_FIGHTER",
-  "turretSprite": "graphics/ships/sr_terrelli_lights_00.png",
-  "hardpointSprite": "graphics/ships/sr_terrelli_lights_00.png",
+  "turretSprite": "graphics/ships/sr_varadgirii_lights_00.png",
+  "hardpointSprite": "graphics/ships/sr_varadgirii_lights_00.png",
   "renderBelowAllWeapons":true,
   "glowColor": [255,255,255,255],
   "hitGlowRadius": 0,

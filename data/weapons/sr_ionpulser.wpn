@@ -1,0 +1,28 @@
+{
+	"id":"sr_ionpulser",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"",
+	"turretGlowSprite":"graphics/weapons/sr_seriema_cannon_glow.png",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/weapons/sr_seriema_cannon_glow.png",
+	"glowColor":[100,100,255,255],
+	"turretOffsets":[-23, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[7.5, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":55.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":7.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":25.0,
+					   "particleDuration":0.34,
+					   "particleCount":15,
+					   "particleColor":[100,100,255,255]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"sr_ionpulser_shot",  # projectile that will be fired
+	"fireSoundTwo":"sr_carbine_fire",
+}

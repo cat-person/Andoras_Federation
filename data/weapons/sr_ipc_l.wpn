@@ -5,9 +5,9 @@
   "type": "ENERGY",
   "size": "LARGE",
   "turretSprite": "",
-  "turretGlowSprite": "graphics/weapons/sr_seriema_cannon_glow.png",
+  "turretGlowSprite": "graphics/weapons/sr_cariama_cannonglow_l.png",
   "hardpointSprite": "",
-  "hardpointGlowSprite": "graphics/weapons/sr_seriema_cannon_glow.png",
+  "hardpointGlowSprite": "graphics/weapons/sr_cariama_cannonglow_l.png",
   "glowColor": [
     100,
     100,
@@ -15,15 +15,15 @@
     255
   ],
   "turretOffsets": [
-    -23,
-    0
+    3,
+    -1.5
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    7.5,
-    0
+    15,
+    -1.5
   ],
   "hardpointAngleOffsets": [
     0
@@ -45,5 +45,5 @@
       255
     ]
   },
-  "fireSoundTwo": "sr_carbine_fire"
+  "fireSoundTwo": "sr_ioncannon_fire"
 }

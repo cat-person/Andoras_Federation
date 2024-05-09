@@ -1,0 +1,21 @@
+{
+	"id":"sr_cariama_deco_l",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"MEDIUM",
+	"renderBelowAllWeapons":false,	
+	"turretSprite":"graphics/weapons/decos/sr_cariama_deco_l.png",
+	"hardpointSprite":"graphics/weapons/decos/sr_cariama_deco_l.png",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"fringeColor":[255,255,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,255,255,255],
+	"width":12.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":5.0,	
+	"showDamageWhenDecorative":true,	
+}
