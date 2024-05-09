@@ -1,45 +1,152 @@
 {
   "hullName": "Cariama",
   "hullId": "sr_cariama",
-  "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/sr_cariama.png",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/sr_cariama/sr_cariama.png",
   "style": "HOUSE_AUGUSTUS",
-  "height": 99,
-  "width": 79,
-  "center": [40, 45.5],
-  "collisionRadius": 56,
+  "height": 128,
+  "width": 110,
+  "center": [55, 57.5],
+  "collisionRadius": 79.5,
   "shieldCenter": [0, -0],
-  "shieldRadius": 56,
+  "shieldRadius": 79.5,
   "viewOffset": 0,
   "builtInMods": [
-    "adaptive_coils",
-    "autorepair"
+    "insulatedengine",
+    "auxiliarythrusters",
+    "phasefield",
+    "coherer"
   ],
   "builtInWings": [
-    "sr_gruesli_archangel_drone_wing"
+    "sr_pax_drone"
   ],
   "builtInWeapons": {
-    "WS0001": "sr_ipc_r",
-    "WS0002": "sr_ipc_l"
+    "WS0001": "sr_cariama_engine_l",
+    "WS0002": "sr_cariama_engine_r",
+    "WS0003": "sr_cariama_deco_l",
+    "WS0004": "sr_cariama_deco_r",
+    "WS0005": "sr_cariama_hull_glow2",
+    "WS0006": "sr_cariama_hull_glow1",
+    "WS0012": "sr_ipc_l",
+    "WS0013": "sr_ipc_r"
   },
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "LARGE",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [25, 14]
+      "locations": [-43.5, 23]
     },
     {
       "id": "WS0002",
-      "size": "LARGE",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-43.5, -23]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [25, -14]
+      "locations": [-28.5, 23]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-28.5, -23]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [19.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 40,
+      "locations": [18.5, 34]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": -40,
+      "locations": [18.5, -34]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 96,
+      "locations": [-12.5, 38]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": -96,
+      "locations": [-12.5, -38]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 180,
+      "locations": [-0.5, -0]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 3,
+      "angle": 0,
+      "locations": [46, 15]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 3,
+      "angle": -0,
+      "locations": [46, -15]
     },
     {
       "id": "LB 1",
@@ -48,76 +155,50 @@
       "mount": "HIDDEN",
       "arc": 360,
       "angle": 0,
-      "locations": [0.5, 0.5]
-    },
-    {
-      "id": "LB 2",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [0.5, 0.5]
+      "locations": [
+        47.5, -0,
+        47, -0
+      ]
     }
   ],
   "engineSlots": [
     {
-      "location": [-26.5, 21],
-      "length": 25,
+      "location": [-54.5, 23],
+      "length": 30,
       "width": 10,
       "angle": 180,
-      "contrailSize": 25,
-      "style": "HOUSE_AUGUSTUS"
+      "contrailSize": 30,
+      "style": "SR_AENOCYON_VENOM"
     },
     {
-      "location": [-26.5, -20.5],
-      "length": 25,
+      "location": [-54.5, -23],
+      "length": 30,
       "width": 10,
-      "angle": 180,
-      "contrailSize": 25,
-      "style": "HOUSE_AUGUSTUS"
-    },
-    {
-      "location": [-29.5, 0],
-      "length": 15,
-      "width": 6,
-      "angle": 180,
-      "contrailSize": 15,
-      "style": "HOUSE_AUGUSTUS"
-    },
-    {
-      "location": [-31.5, 7],
-      "length": 15,
-      "width": 8,
-      "angle": 180,
-      "contrailSize": 15,
-      "style": "HOUSE_AUGUSTUS"
-    },
-    {
-      "location": [-31.5, -7],
-      "length": 15,
-      "width": 8,
-      "angle": 180,
-      "contrailSize": 15,
-      "style": "HOUSE_AUGUSTUS"
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "SR_AENOCYON_VENOM"
     }
   ],
   "bounds": [
-    -14.5, 38.5,
-    -32, 26,
-    -29, 17,
-    -45.5, 12.5,
-    -33.5, 9,
-    -33.5, -8.5,
-    -44, -10.5,
-    -29, -17,
-    -31.5, -27,
-    -23.5, -28,
-    -15.5, -37.5,
-    31, -20,
-    24.5, -13.5,
-    53, -0,
-    20.5, 14,
-    28, 20
+    46.5, -14.5,
+    68, -18.5,
+    51.5, -22,
+    40, -27,
+    17.5, -44.5,
+    7, -35,
+    -13.5, -48.5,
+    -39, -44.5,
+    -32.5, -33.5,
+    -50.5, -15,
+    -50.5, 15,
+    -32.5, 33.5,
+    -39, 44.5,
+    -13.5, 48.5,
+    7, 35,
+    17.5, 44.5,
+    40, 27,
+    51.5, 22,
+    68, 18.5,
+    46.5, 14.5
   ]
 }

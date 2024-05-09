@@ -202,84 +202,84 @@
   ],
   "engineSlots": [
     {
-      "location": [-18, 82.5],
+      "location": [-18, 83],
       "length": 45,
-      "width": 18,
+      "width": 20,
       "angle": 127.5,
-      "contrailSize": 50,
-      "style": "HOUSE_AUGUSTUS"
+      "contrailSize": 45,
+      "style": "SR_AENOCYON_VENOM"
     },
     {
-      "location": [-19, 64],
+      "location": [-21, -87.5],
       "length": 45,
-      "width": 18,
-      "angle": 140,
-      "contrailSize": 50,
-      "style": "HOUSE_AUGUSTUS"
-    },
-    {
-      "location": [-21.5, 48],
-      "length": 45,
-      "width": 18,
-      "angle": 150.5,
-      "contrailSize": 50,
-      "style": "HOUSE_AUGUSTUS"
-    },
-    {
-      "location": [-22, 28.5],
-      "length": 45,
-      "width": 18,
-      "angle": 157.5,
-      "contrailSize": 50,
-      "style": "HOUSE_AUGUSTUS"
-    },
-    {
-      "location": [-22, -28.5],
-      "length": 45,
-      "width": 18,
-      "angle": -158,
-      "contrailSize": 50,
-      "style": "HOUSE_AUGUSTUS"
-    },
-    {
-      "location": [-21.5, -48],
-      "length": 45,
-      "width": 18,
-      "angle": -152.5,
-      "contrailSize": 50,
-      "style": "HOUSE_AUGUSTUS"
+      "width": 20,
+      "angle": -127.5,
+      "contrailSize": 45,
+      "style": "SR_AENOCYON_VENOM"
     },
     {
       "location": [-19, -64],
       "length": 45,
-      "width": 18,
-      "angle": -140,
-      "contrailSize": 50,
-      "style": "HOUSE_AUGUSTUS"
-    },
-    {
-      "location": [-18, -82.5],
-      "length": 45,
-      "width": 18,
-      "angle": -127.5,
-      "contrailSize": 50,
-      "style": "HOUSE_AUGUSTUS"
-    },
-    {
-      "location": [-23, 14],
-      "length": 55,
       "width": 20,
-      "angle": 180,
-      "contrailSize": 55,
-      "style": "HOUSE_AUGUSTUS"
+      "angle": -140,
+      "contrailSize": 45,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-21.5, -48],
+      "length": 45,
+      "width": 20,
+      "angle": -152.5,
+      "contrailSize": 45,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-22, -28.5],
+      "length": 45,
+      "width": 20,
+      "angle": -158,
+      "contrailSize": 45,
+      "style": "SR_AENOCYON_VENOM"
     },
     {
       "location": [-23, -14],
-      "length": 55,
-      "width": 20,
+      "length": 50,
+      "width": 18,
       "angle": -180,
-      "contrailSize": 55,
-      "style": "HOUSE_AUGUSTUS"
+      "contrailSize": 50,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-23, 14],
+      "length": 50,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-22, 28.5],
+      "length": 45,
+      "width": 20,
+      "angle": 157.5,
+      "contrailSize": 45,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-21.5, 48],
+      "length": 45,
+      "width": 20,
+      "angle": 150.5,
+      "contrailSize": 45,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-19, 64],
+      "length": 45,
+      "width": 20,
+      "angle": 140,
+      "contrailSize": 45,
+      "style": "SR_AENOCYON_VENOM"
     }
   ],
   "bounds": [

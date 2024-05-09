@@ -16,9 +16,9 @@
         ],
         "sr_carbine_fire":
         [
-                {"file":"sounds/weapon/sr_carbine_fire1.ogg","pitch":0.9,"volume":0.7},
-                {"file":"sounds/weapon/sr_carbine_fire2.ogg","pitch":0.85,"volume":0.65},
-                {"file":"sounds/weapon/sr_carbine_fire3.ogg","pitch":0.8,"volume":0.6}
+                {"file":"sounds/weapon/sr_carbine_fire1.ogg","pitch":0.9,"volume":0.45},
+                {"file":"sounds/weapon/sr_carbine_fire2.ogg","pitch":0.85,"volume":0.4},
+                {"file":"sounds/weapon/sr_carbine_fire3.ogg","pitch":0.8,"volume":0.35}
         ],
         "sr_sexbarrel_fire":
         [
@@ -62,9 +62,9 @@
 	],
         "sr_ioncannon_fire":
 	[
-		{"file":"sounds/weapon/sr_ioncannon_fire.ogg","pitch":0.85,"volume":0.4},
-		{"file":"sounds/weapon/sr_ioncannon_fire.ogg","pitch":0.8,"volume":0.5},
-		{"file":"sounds/weapon/sr_ioncannon_fire.ogg","pitch":0.75,"volume":0.6}
+		{"file":"sounds/weapon/sr_ioncannon_fire.ogg","pitch":0.85,"volume":0.45},
+		{"file":"sounds/weapon/sr_ioncannon_fire.ogg","pitch":0.8,"volume":0.4},
+		{"file":"sounds/weapon/sr_ioncannon_fire.ogg","pitch":0.75,"volume":0.35}
 	],
         "sr_littlepew_fire":
 	[

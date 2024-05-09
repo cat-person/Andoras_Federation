@@ -4,20 +4,26 @@
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/sr_cristata.png",
   "style": "HOUSE_AUGUSTUS",
-  "height": 57,
-  "width": 70,
-  "center": [35, 25.5],
-  "collisionRadius": 38.5,
+  "height": 92,
+  "width": 94,
+  "center": [47, 47],
+  "collisionRadius": 56,
   "shieldCenter": [0, -0],
-  "shieldRadius": 38.5,
+  "shieldRadius": 56,
   "viewOffset": 0,
   "builtInMods": [
-    "autorepair",
-    "hardenedshieldemitter"
+    "phasefield",
+    "coherer",
+    "insulatedengine"
+  ],
+  "builtInWings": [
+    "sr_arcos_drone"
   ],
   "builtInWeapons": {
-    "WS0004": "sr_thirteen",
-    "WS0005": "sr_thirteen"
+    "WS0003": "sr_cristata_hull_glow2",
+    "WS0004": "sr_cristata_hull_glow1",
+    "WS0005": "sr_ipc_l",
+    "WS0006": "sr_ipc_r"
   },
   "weaponSlots": [
     {
@@ -25,76 +31,118 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 360,
-      "angle": 0,
-      "locations": [3, -0]
+      "arc": 210,
+      "angle": 35,
+      "locations": [-8, 31]
     },
     {
       "id": "WS0002",
-      "size": "SMALL",
-      "type": "MISSILE",
-      "mount": "HARDPOINT",
-      "arc": 5,
-      "angle": 0,
-      "locations": [8, 24]
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -35,
+      "locations": [-8, -31]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "MISSILE",
-      "mount": "HARDPOINT",
-      "arc": 5,
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
       "angle": 0,
-      "locations": [8, -24]
+      "locations": [-5, -0]
     },
     {
       "id": "WS0004",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 5,
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 210,
       "angle": 0,
-      "locations": [27, 10.5]
+      "locations": [-5, -0]
     },
     {
       "id": "WS0005",
-      "size": "SMALL",
+      "size": "LARGE",
       "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 5,
+      "mount": "TURRET",
+      "arc": 3,
       "angle": 0,
-      "locations": [27, -10.5]
+      "locations": [20.5, 15]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [20.5, -15]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        21, -0,
+        21.5, -0
+      ]
     }
   ],
   "engineSlots": [
     {
-      "location": [-23, 12.5],
-      "length": 15,
+      "location": [-36.5, 9],
+      "length": 30,
       "width": 10,
       "angle": 180,
-      "contrailSize": 15,
-      "style": "HOUSE_AUGUSTUS"
+      "contrailSize": 30,
+      "style": "SR_AENOCYON_VENOM"
     },
     {
-      "location": [-23, -12.5],
-      "length": 15,
+      "location": [-36.5, -9],
+      "length": 30,
       "width": 10,
-      "angle": 180,
-      "contrailSize": 15,
-      "style": "HOUSE_AUGUSTUS"
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-28.5, 25.5],
+      "length": 30,
+      "width": 10,
+      "angle": 145,
+      "contrailSize": 30,
+      "style": "SR_AENOCYON_VENOM"
+    },
+    {
+      "location": [-28.5, -25.5],
+      "length": 30,
+      "width": 10,
+      "angle": -145,
+      "contrailSize": 30,
+      "style": "SR_AENOCYON_VENOM"
     }
   ],
   "bounds": [
-    -22.5, 24.5,
-    -9, 34.5,
-    11, 30,
-    11.5, 18,
-    29.5, 12,
-    31, 0.5,
-    29, -11,
-    10, -18.5,
-    10, -29.5,
-    -10, -33,
-    -22, -24
+    18, -26,
+    -2, -39,
+    -15, -45,
+    -38.5, -9.5,
+    -38.5, 9.5,
+    -15, 45,
+    -2, 39,
+    18, 26,
+    31, 20.5,
+    42, 19,
+    23, 17,
+    18, 7.5,
+    18, -7.5,
+    23, -17,
+    42, -19,
+    31, -20.5
   ]
 }
