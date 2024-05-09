@@ -2,19 +2,21 @@ DEV CREDITS:
 
 Slavodan - Ideas, Writing, Lore, descriptions, and kitbashing House Belladona Ships and helping give the mod life!
 
-Tesser- Spriting various ships, creating the mech designs and shaping House Raa ship design!!
+Tesser- Spriting various ships, creating the mech designs and helping in shaping House Raa ship design!!
 
 [REDACTED] - You know who you are and why.
 
 BIG CREDITS: 
 
+Meower The Great - Making the Github and......
 
+MiniDeth3 - Spriting some fighters, ships and weaps!
 
-Quacken - Spriting the House Raa and House Augustus ships!
+Quacken - Spriting the House Augustus ships and shaping their ship style!
+
+Tecrys - Spriting the....
 
 PureTilt- Coding some quality weapons scripts, ship systems and AI for various things! 
-
-MiniDeth3- Spriting some very quality weapons!
 
 BeyondTheHorizon - Weapon code and Thunderwing AI/Code!
 
@@ -50,4 +52,4 @@ Vinya
 Luz
 
 
-(If you think you should be in this list @me and we will see! I am forgetful I'm sorry :(
+If you think you should be somewhere on this list @me and we will see! I am forgetful I'm sorry :(
