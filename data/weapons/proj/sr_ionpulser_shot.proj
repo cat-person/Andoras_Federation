@@ -1,0 +1,17 @@
+{
+	"id":"sr_ionpulser_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":114.0,
+	"width":22.0,
+	"fadeTime":0.4,
+	"fringeColor":[100,100,255,255],
+	"coreColor":[255,255,255,200],
+	#"coreColor":[175,175,175,255],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":3.0	
+}
