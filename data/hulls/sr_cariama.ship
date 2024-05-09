@@ -90,7 +90,7 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 115,
+      "arc": 135,
       "angle": 40,
       "locations": [18.5, 34]
     },
@@ -99,7 +99,7 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 115,
+      "arc": 135,
       "angle": -40,
       "locations": [18.5, -34]
     },
@@ -108,8 +108,8 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 115,
-      "angle": 96,
+      "arc": 135,
+      "angle": 90,
       "locations": [-12.5, 38]
     },
     {
@@ -117,16 +117,16 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 115,
-      "angle": -96,
+      "arc": 135,
+      "angle": -90,
       "locations": [-12.5, -38]
     },
     {
       "id": "WS0011",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "SYNERGY",
       "mount": "TURRET",
-      "arc": 235,
+      "arc": 205,
       "angle": 180,
       "locations": [-0.5, -0]
     },
