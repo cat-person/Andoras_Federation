@@ -5,8 +5,8 @@
   "type": "MISSILE",
   "size": "LARGE",
   "displayArcRadius": 500,
-  "turretSprite": "graphics/weapons/builtins/sr_gregaria.png",
-  "hardpointSprite": "graphics/weapons/builtins/sr_gregaria.png",
+  "turretSprite": "",
+  "hardpointSprite": "",
   "turretOffsets": [
     6.5,
     17.5,
