@@ -1,4 +1,4 @@
-package src.data.scripts.combat;
+package data.scripts.combat;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.CollisionClass;

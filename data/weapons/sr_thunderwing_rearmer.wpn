@@ -3,7 +3,7 @@
 	"specClass":"beam",
 	"type":"DECORATIVE",
 	"size":"LARGE",
-	"everyFrameEffect":"src.data.scripts.combat.LandingPad",
+	"everyFrameEffect":"data.scripts.weapons.LandingPad",
 	"showDamageWhenDecorative":false,
 	"renderBelowAllWeapons":true,
 	"renderHints":["RENDER_ADDITIVE"],

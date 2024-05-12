@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SolarRepublic" level="project" />
     <orderEntry type="module" module-name="scripts" />
+    <orderEntry type="library" name="starfarer.api" level="project" />
   </component>
 </module>

@@ -36,7 +36,7 @@
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
-      "arc": 0,
+      "arc": 180,
       "angle": 0,
       "locations": [-43.5, 23]
     },
@@ -45,8 +45,8 @@
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
-      "arc": 0,
-      "angle": -0,
+      "arc": 180,
+      "angle": 0,
       "locations": [-43.5, -23]
     },
     {
@@ -163,17 +163,17 @@
   ],
   "engineSlots": [
     {
-      "location": [-54.5, 23],
-      "length": 30,
-      "width": 10,
+      "location": [-43.5, 23],
+      "length": 45,
+      "width": 15,
       "angle": 180,
       "contrailSize": 30,
       "style": "SR_AENOCYON_VENOM"
     },
     {
-      "location": [-54.5, -23],
-      "length": 30,
-      "width": 10,
+      "location": [-43.5, -23],
+      "length": 45,
+      "width": 15,
       "angle": -180,
       "contrailSize": 30,
       "style": "SR_AENOCYON_VENOM"
